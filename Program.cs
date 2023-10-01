@@ -37,9 +37,9 @@ class Program
     static void Main(string[] args)
     {
         Group group = new Group();
-        group.AddStudent(new Student("Alice"));
-        group.AddStudent(new Student("Bob"));
-        group.AddStudent(new Student("Charlie"));
+        group.AddStudent(new Student("Папа"));
+        group.AddStudent(new Student("Мимик"));
+        group.AddStudent(new Student("Я"));
 
         foreach (Student student in group)
         {
